@@ -11,7 +11,8 @@ Phones need bb10-apk-tools 20260927-r1 or newer for HTTPS.
 
 | Route | Repository address | Signing key the phone needs |
 |---|---|---|
-| GitHub Pages (Settings -> Pages: branch `main`, folder `/docs`) | `https://whytofly.github.io/bb10-repo-test/repo` | `https://whytofly.github.io/bb10-repo-test/keys/my-bb10-repo.rsa.pub` |
+| GitHub Pages (Settings -> Pages: branch `main`, folder `/` root) | `https://whytofly.github.io/bb10-repo-test/docs/repo` | `https://whytofly.github.io/bb10-repo-test/docs/keys/my-bb10-repo.rsa.pub` |
+| GitHub Pages if set to folder `/docs` instead | `https://whytofly.github.io/bb10-repo-test/repo` | `https://whytofly.github.io/bb10-repo-test/keys/my-bb10-repo.rsa.pub` |
 | raw.githubusercontent.com (no Pages needed) | `https://raw.githubusercontent.com/WhyToFly/bb10-repo-test/main/docs/repo` | `https://raw.githubusercontent.com/WhyToFly/bb10-repo-test/main/docs/keys/my-bb10-repo.rsa.pub` |
 | Release `v1` (see below) | `https://github.com/WhyToFly/bb10-repo-test/releases/download/v1/APKINDEX.tar.gz` | `https://github.com/WhyToFly/bb10-repo-test/releases/download/v1/my-bb10-repo.rsa.pub` |
 
