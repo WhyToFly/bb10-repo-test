@@ -1,0 +1,16 @@
+# Demo package for a third-party Rubus repository hosted on GitHub.
+# Harmless on purpose: it installs one text file and runs no scripts.
+pkgname=hello-bb10-github
+pkgver=1.0
+pkgrel=0
+pkgdesc="Demo package from a GitHub-hosted repository (installs one text file)"
+url="https://github.com/YOUR_NAME/YOUR_REPO"
+arch="noarch"
+license="CC0-1.0"
+options="!check !strip !archcheck"
+source=""
+
+package() {
+	mkdir -p "$pkgdir/share/hello-bb10-github"
+	echo "Installed from a GitHub-hosted repository." > "$pkgdir/share/hello-bb10-github/hello.txt"
+}
